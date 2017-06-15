@@ -26,7 +26,7 @@ def main():
 	while(break_count < total_breaks):
 	    #webbrowser.open("https://www.youtube.com/watch?v=_dK2tDK9grQ") #open browser and play "Shape of You"
 	    callback()
-	    time.sleep(6)
+	    time.sleep(60) #change this value to adjust the interval
 	    break_count += 1
 
 if __name__ == "__main__":
